@@ -2,14 +2,6 @@ html {
     font-family: "Indie Flower", cursive;
 }
 
-header h1 {
-    display: flex;
-    flex-flow: row wrap;
-    font-size: 55px;
-    border-radius: 10px 30px;
-    margin: 20px;
-}
-
 .mascotas h3 {
     font-size: 30px;
     margin-left: 20px;
@@ -52,42 +44,22 @@ header h1 {
 }
 
 .titulos {
-    margin-left: 200px;
-    width: 1000px;
-}
-
-.titulo {
+    width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin: -380px 0 150px 100px;
-    font-size: 55px;
-    border: 2px solid black;
-    border-radius: 5px 15px;
-    background: linear-gradient(to right, #abc2ee 0%, #757e53 100%);
-    width: 700px;
+    align-items: center;
 }
 
-.titulo2 {
-    display: flex;
-    justify-content: center;
-    margin: -100px 0 260px 260px;
-    font-size: 30px;
-    border: 2px solid black;
-    border-radius: 5px 15px;
-    background: linear-gradient(to right, #abc2eeff 50%, #757e53ff 100%);
-    width: 400px;
-}
+.titulo {}
 
-.titulo3 {
-    font-size: 35px;
-    color: black;
-    margin: -40px 0 50px 60px;
-}
+.titulo2 {}
+
+.titulo3 {}
 
 .menu {
     font-size: 30px;
     font-weight: 700;
-    top: ;
 }
 
 .menu ul {
@@ -114,7 +86,6 @@ header h1 {
 .menu2 {
     font-size: 30px;
     font-weight: 700;
-    top: ;
 }
 
 .menu2 ul {
@@ -129,7 +100,7 @@ header h1 {
     border: 2px solid black;
     border-radius: 5px 15px;
     padding: 5px;
-    margin: -30px 15px 0px 15px;
+    margin: 5px 15px 0px 15px;
     background: linear-gradient(to right, #abc2ee 0%, #757e53 100%);
 }
 
